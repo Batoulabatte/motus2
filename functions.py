@@ -60,7 +60,7 @@ def partie(lexique):
         if nbEssais == 0:
             break                               #Force la sortie de la boucle while si le nombre d'essais est égal à 0
     if endGame == True:
-        print("Bien joué vous avez trouver le mot en ", nbEssais, " essais")
+        print("Bien joué vous avez trouver le mot en ", (6-nbEssais), " essais")
         gigaChad()
     else:
         print("Perdu, vous avez atteint  la limite d'essais !")
