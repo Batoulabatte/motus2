@@ -52,7 +52,6 @@ def partie(lexique):
     secret = random.choice(wordlist)
     print("Mot à deviner selectionné. \n La partie va commencer.")
     endGame = False
-    print(secret)
     while endGame != True:
         endGame = tour(secret, wordlist)        #appel de la fonction tour qui retourne true si la partie est finie, sinon false
         if endGame == False:
