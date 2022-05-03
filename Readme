@@ -1,0 +1,22 @@
+Le programme a été réalisé avec le logiciel PyCharm
+Le programme a été réalisé en suivant les principes SOLID, c'est à dire en limitant le travail de chaque fonction à une
+seule action.
+
+Le projet a été publié sur GitHub
+
+Une fonction main est définie qui appelle la fonction gameInit.
+Dans cette fonction gameInit, on appelle la fonction partie qui va appeler nos 2 autres fonctions c'est à dire tour et
+comparer.
+
+Les couleurs ont été rajoutées ainsi que la version de couleurs pour les daltoniens.
+L'historique a été ajoutée pour que le joueur puisse le voir en fin de partie.
+Quelque chose a été caché dans le programme (grâce à la fonction easteregg)
+
+
+Veuillez modifier le path pour qu'il pointe vers l'audio fourni
+Ce path est défini dans musique.py
+Ce fichier audio est a télécharger sur google drive ici :
+https://drive.google.com/file/d/1NnnxAUj6qixljD7djdwBUoh_-tVYu03p/view?usp=sharing
+Intégrer le chemin absolu du fichier dans musique.py à l'endroit indiqué
+Attention : le programme ne fonctionne pas si le lien absolu n'est pas renseigné.
+Si vous n'arrivez pas à télécharger la musique et renseigner le lien absolu, commentez la derniere ligne de la fonction gigaChad() qui appelle la fonction canufell()
